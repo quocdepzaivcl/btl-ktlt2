@@ -1,0 +1,28 @@
+# Binaries and build artifacts
+bin/*
+!bin/main.exe
+!bin/.gitkeep
+build/
+
+# Object and library files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Output binaries
+*.exe
+*.out
+*.app
+
+# Editor / IDE files
+.vscode/*
+!.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
